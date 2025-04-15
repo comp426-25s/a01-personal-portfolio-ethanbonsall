@@ -9,43 +9,43 @@ const Web = () => {
   const projects = [
     {
       link: "https://a02-calculator-ethanbonsall.vercel.app/",
-      git: "https://github.com/ethanbonsall/a02-calculator-ethanbonsall",
+      git: "/git",
       description:
         "Frontend: HTML/CSS/JS\nStorage:In-memory only\nDetails: Logic-first calculator app with MVC architecture and test-driven development.",
     },
     {
       link: "https://a03-pixel-art-maker-ethan.vercel.app/",
-      git: "https://github.com/ethanbonsall/a03-pixel-art-maker-ethan",
+      git: "/git",
       description:
         "Frontend: TypeScript\nStorage: LocalStorage\nDetails: Event-driven pixel art creator with tools for drawing, erasing, and exporting.",
     },
     {
       link: "https://a04-wordle-ethanbonsall.vercel.app/",
-      git: "https://github.com/ethanbonsall/a04-wordle-ethanbonsall",
+      git: "/git",
       description:
         "Frontend: React + Tailwind\nBackend: Custom Wordle API\nStorage: In-memory (React State)\nDetails: Functional Wordle clone with custom tile/grid components and real-time API interaction.",
     },
     {
       link: "https://a05-pokedex-ethanbonsall.vercel.app/",
-      git: "https://github.com/ethanbonsall/a05-pokedex-ethanbonsall",
+      git: "/git",
       description:
         "Frontend: Next.js + React Query\nBackend: PokéAPI\nStorage: In-memory (React Query Cache)\nDetails: Paginated Pokedex viewer with detailed Pokémon pages using multiple API endpoints.",
     },
     {
       link: "https://a06-oriole-ethanbonsall.vercel.app/login",
-      git: "https://github.com/ethanbonsall/a06-oriole-ethanbonsall",
+      git: "/git",
       description:
         "Frontend: Next.js + Tailwind\nBackend: Supabase (DB, Auth, Functions)\nStorage: Supabase Storage\nDetails: Social media app with login, posts, likes, follows, image uploads, and infinite scroll.",
     },
     {
       link: "https://a07-alias-team-44.vercel.app/",
-      git: "https://github.com/ethanbonsall/a07-alias-team-44",
+      git: "/git",
       description:
         "Frontend: Next.js + Tailwind\nBackend: Supabase (Realtime, Auth, Functions)\nStorage: Supabase Storage\nDetails: Discord-style chat app with live messaging, image uploads, reactions, and servers.",
     },
     {
       link: "https://a08-design-lab-ethanbonsall.vercel.app/",
-      git: "https://github.com/ethanbonsall/a08-design-lab-ethanbonsall",
+      git: "/git",
       description:
         "Frontend: Next.js + Shadcn UI\nDetails: UI design challenge app exploring Shadcn components and styling techniques.",
     },
@@ -56,6 +56,7 @@ const Web = () => {
         "Frontend: React + Next.js + Tailwind\nBackend: Supabase + Spotify API\nStorage: Supabase DB & File Storage\nDetails: Birthday celebration page with RSVP submissions, photo uploads, and a shared Spotify playlist. Guests can log in to contribute songs and view the evolving party soundtrack.",
     },
     {
+      git: "/git",
       description:
         "Frontend: Angular \nBackend: RESTful API (FastAPI) + PostgreSQL\nStorage: Server-side DB\nDetails: AI-powered chatbot for UNC's CSXL lab that converts natural language into room reservation requests. Integrates OpenAI to interpret user intent and manage bookings via API.",
     },
@@ -66,6 +67,7 @@ const Web = () => {
         "Frontend: React + Next.js\nBackend: Node.js + Supabase\nStorage: Supabase DB & File Storage\nDetails: Tinder-style swiping app for Beautiful Together Animal Sanctuary. Users can heart or skip pets, view photos, and get closer to deciding who to adopt.",
     },
     {
+      git: "/git",
       description:
         "Frontend: React + Next.js + Tailwind\nBackend: Supabase + Supabase Realtime\nStorage: Supabase DB & Realtime\nDetails: Discord-style academic hub for students to share notes, create collaborative documents, and host real-time study sessions.",
     },
@@ -104,7 +106,7 @@ const Web = () => {
     >
       <h1 className="text-4xl z-0 font-bold">Projects</h1>
       <hr className="border-accent z-0 my-2" />
-      <h2 className="text-2xl z-0 font-semibold my-6">Current Projects</h2>
+      <h2 className="text-3xl z-0 font-semibold my-8">Current Projects</h2>
       {loading ? (
         <div className="flex justify-center items-center">
           <b className="text-3xl">{displayedText}</b>
@@ -162,7 +164,7 @@ const Web = () => {
           ))}
         </div>
       )}
-      <h2 className="text-2xl z-0 font-semibold my-6">Web Projects</h2>
+      <h2 className="text-3xl z-0 font-semibold my-8">Web Projects</h2>
 
       {loading ? (
         <div className="flex justify-center items-center">
